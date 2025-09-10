@@ -1,4 +1,7 @@
 # 🏛️ Harvard’s Artifacts Collection: ETL, SQL Analytics & Streamlit Showcase
+📌 Project Statement
+As an app developer, you are tasked with building an interactive, end-to-end ETL and data exploration platform using the Harvard Art Museums public API. This platform will empower users to dynamically explore, collect, store, and query rich art collections from Harvard’s digital archive — all through a simple, intuitive Streamlit web application.
+
 📝1: Getting the Harvard Art Museums API Key 
 Go to: https://www.harvardartmuseums.org/collections/api Scroll down and click on “Send a request”. In the google form, fill in your name, email address, and a brief description of your project or intended use. Submit the form — your API key will be displayed instantly and also sent to your email. The key will look like: “1a7ae53e-......” Use your key to format the following API URLs using params: 
 
@@ -14,8 +17,11 @@ This ensures broad, diverse data coverage and provides a rich base for meaningfu
 
 # SQL Table creation
 🗄️ Table 1: artifact_metadata 
+
 🖼️ Table 2: artifact_media 
+
 🔍 Table 3 : SQL Queries (Display the output in streamlit)
 
 # 📌 📊 Streamlit Application Breakdown
-image
+<img width="1888" height="902" alt="image" src="https://github.com/user-attachments/assets/101cacb5-7cae-4574-ad2d-881f99f55f5c" />
+
