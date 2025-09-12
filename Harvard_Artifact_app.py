@@ -51,7 +51,16 @@ def fetch_all_classifications(API_key, classifications, target=2500):
         print(f"{c}: {len(all_records[c])} records fetched")
     return all_records
 
-st.markdown("<h1 style='text-align: center; color: white;'>🏦Harvard Artifacts Dashboard</h1>", unsafe_allow_html=True)
+st.markdown(f"""
+    <style>
+    .stApp {{
+        background-image: url("https://live.staticflickr.com/5590/14418116179_6f8536c5bc_b.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }}
+    </style>
+""", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>🏦Harvard Artifacts Dashboard</h1>", unsafe_allow_html=True)
 
 def styled_header(text, size=1):
     st.markdown(f"<h{size} style='color: orange; font-weight: bold; margin: 0.2rem 0 0.6rem;'>{text}</h{size}>",
@@ -351,4 +360,5 @@ with tabs[2]:
         df = pd.DataFrame(rows, columns=[c[0] for c in cur.description])
         st.dataframe(df, use_container_width=True)
         cur.close(); conn.close()
+
 
