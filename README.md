@@ -23,5 +23,6 @@ This ensures broad, diverse data coverage and provides a rich base for meaningfu
 🔍 Table 3 : SQL Queries (Display the output in streamlit)
 
 # 📌 📊 Streamlit Application Breakdown
-<img width="1888" height="902" alt="image" src="https://github.com/user-attachments/assets/101cacb5-7cae-4574-ad2d-881f99f55f5c" />
+<img width="1898" height="842" alt="image" src="https://github.com/user-attachments/assets/004cc28d-a9e7-45d4-9940-70cef79a5bae" />
+
 
